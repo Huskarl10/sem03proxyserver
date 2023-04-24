@@ -9,7 +9,7 @@ import (
 
 func main() {
 	var wg sync.WaitGroup
-	proxyServer, err := net.Listen("tcp", "172.17.0.3:8000")
+	proxyServer, err := net.Listen("tcp", "172.17.0.2:8000")
 	if err != nil {
 		log.Fatal(err)
 	}
